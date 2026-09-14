@@ -40,7 +40,6 @@ SaleProduct.belongsTo(Product, {
     as: 'product'
 })
 
-
 module.exports = {
     sequelize,
     User,   
@@ -48,6 +47,4 @@ module.exports = {
     Sale,
     SaleProduct
 }
-
-
 
